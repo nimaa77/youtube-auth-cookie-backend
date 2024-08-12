@@ -1,0 +1,11 @@
+const ONE_MINUTE = 1000 * 60;
+const TEN_SEC = 1000 * 10;
+
+export const IS_PROD = process.env.NODE_ENV === "production";
+export const REFRESH_TOKEN_AGE = ONE_MINUTE;
+export const ACCESS_TOKEN_AGE = TEN_SEC;
+
+// THIS IS FOR DEMO PURPOSES ONLY
+// NEVER STORE YOUR SECRETS IN YOUR CODE
+export const SECRET =
+  "cc7e0d44fd473002f1c42167459001140ec6389b7353f8088f4d9a95f2f596f2";
