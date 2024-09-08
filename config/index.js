@@ -1,5 +1,5 @@
 const ONE_MINUTE = 1000 * 60;
-const TEN_SEC = 1000 * 10;
+const TEN_SEC = 1000 * 10 * 600000;
 
 export const IS_PROD = process.env.NODE_ENV === "production";
 export const REFRESH_TOKEN_AGE = ONE_MINUTE;

@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors());
 
-app.use("/api/v1", apiRouter);
+app.use("/v1", apiRouter);
 
 app.listen(4000, () => {
   console.log(`Server is running on port 4000`);
