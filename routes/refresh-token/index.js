@@ -16,7 +16,7 @@ const router = express.Router();
 
 router.post("/", async (req, res) => {
   // read refresh token from cookies
-  const refreshTokenCookie = req.body["refresh_token"];
+  const refreshTokenCookie = req.body["refreshToken"];
 
   // if no refresh token, return 401
   if (!refreshTokenCookie) {
